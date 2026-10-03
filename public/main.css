@@ -1,0 +1,16 @@
+.error {
+	color: red;
+	font-style: italic;
+}
+
+/* Translucent cover with a spinner, over a section that is still being saved. */
+.busy-overlay {
+	position: absolute;
+	inset: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: rgba(255, 255, 255, 0.6);
+	border-radius: 0.25rem;
+}
+
